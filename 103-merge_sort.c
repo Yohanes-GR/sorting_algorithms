@@ -38,6 +38,14 @@ void merge_recursion(int *arr, int *array, size_t left, size_t right)
 	}
 }
 
+/**
+ * merge_subarray - merges subarrays
+ * @arr: copy array
+ * @array: array to merge
+ * @left: index of the left element
+ * @middle: index of the middle element
+ * @right: index of the right element
+ */
 void merge_subarray(int *arr, int *array, size_t left,
 		size_t middle, size_t right)
 {
